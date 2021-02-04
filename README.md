@@ -15,7 +15,7 @@ npm install
 npm start -- "http://funretro.io/board..." "../exported-file.txt"
 
 ```
-## Different Formats
+## Different Formats ( Acceptance Criteria )
 
 - To use the default behavior run the following command
 npm start -- "http://funretro.io/board..." "../exported-file.txt" txt
