@@ -13,7 +13,16 @@ git clone https://github.com/julykaz/funretro-export.git
 cd funretro-export
 npm install
 npm start -- "http://funretro.io/board..." "../exported-file.txt"
+
 ```
+## Different Formats
+
+- To use the default behavior run the following command
+npm start -- "http://funretro.io/board..." "../exported-file.txt" txt
+
+- To create a csv file run the following command
+npm start -- "http://funretro.io/board..." "../exported-file" csv
+
 
 ## TODO
 
